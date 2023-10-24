@@ -1,0 +1,107 @@
+#ratatouille h1
+{
+    color: #12141c;
+    float: left;
+
+}
+
+.caixa
+{
+    width: 420px;
+    height: 420px;
+    margin: 50px;
+    float: left;
+    background-color:  #686868;
+}
+
+.caixaa
+{
+    width: 420px;
+    height: 80px; 
+    float: center;
+    background-color: #adadad;
+}
+
+.caixa b
+{
+    font-size: 20px;
+    text-align: center;
+    color: #12141c;
+}
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.texto  
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: 	#808080;
+
+}
+
+h1
+{
+    text-align: center;
+}
+
+.texto h1 
+{
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+img 
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+}
+
+.imagem1
+{
+    transition: all 1s;
+    cursor: pointer;
+
+}
+
+.imagem1:hover
+{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.imagem2
+{
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+.imagem2:hover
+{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.imagem3
+{
+    transition: all 1s;
+    cursor: pointer;
+   
+}
+
+.imagem3:hover
+{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
